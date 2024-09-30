@@ -1,0 +1,150 @@
+/* General body styling with background image */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://www.echelonedge.com/wp-content/uploads/2023/05/Network-Inventory-Management.png'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Transparent form box with 3D effect */
+.form-container {
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  border-radius: 16px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Adds depth */
+  text-align: center;
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Hover effect to give 3D appearance with golden-white color */
+.form-container:hover {
+  background: rgba(255, 255, 255, 0.8); /* Slightly whiter background */
+  box-shadow: 0 15px 25px rgba(255, 215, 0, 0.6); /* Gold-colored shadow */
+  transform: translateY(-10px); /* Slight hover up */
+}
+
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Input fields with 3D effect */
+.item-form input[type="text"],
+.item-form input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.2), inset -3px -3px 8px rgba(255, 255, 255, 0.5); /* 3D effect */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Focus and hover on inputs for 3D animation */
+.item-form input[type="text"]:focus,
+.item-form input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(106, 27, 154, 0.7);
+  transform: translateY(-3px);
+}
+
+/* Button with 3D effect */
+.item-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.1); /* 3D button effect */
+}
+
+/* Button hover for deeper 3D effect */
+.item-form button:hover {
+  background-color: #8e24aa;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4), -8px -8px 20px rgba(255, 255, 255, 0.2); /* Deeper shadow */
+  transform: translateY(-5px); /* Push button upward */
+}
+
+/* Items list */
+.items-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.items-title {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Each item card with shadow */
+.item-card {
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent item cards */
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Shadow for each card */
+}
+
+/* Item actions buttons with icons */
+.item-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2), -3px -3px 10px rgba(255, 255, 255, 0.1); /* 3D effect */
+}
+
+.item-actions button:hover {
+  transform: translateY(-3px);
+}
+
+/* Action buttons */
+.edit-btn {
+  background-color: #1e88e5;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #1565c0;
+}
+
+.remove-btn {
+  background-color: #e53935;
+  color: white;
+}
+
+.remove-btn:hover {
+  background-color: #c62828;
+}
+
+/* Icons margin */
+.edit-btn svg,
+.remove-btn svg {
+  margin-right: 5px;
+}
