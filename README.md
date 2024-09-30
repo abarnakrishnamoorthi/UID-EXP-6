@@ -1,9 +1,10 @@
 # Getting Started with Create React App
 # output
 ![Screenshot 2024-09-30 105712](https://github.com/user-attachments/assets/de20b1d6-ab32-48d6-9b1b-17bf8a55df22)
-Description: The Inventory Management System is a user-friendly web application designed to help users efficiently manage their inventory by adding, updating, and removing items. With a modern interface and interactive features, users can easily keep track of item details, including name, description, and quantity, all while enjoying a visually appealing experience.
+# Description:
+The Inventory Management System is a user-friendly web application designed to help users efficiently manage their inventory by adding, updating, and removing items. With a modern interface and interactive features, users can easily keep track of item details, including name, description, and quantity, all while enjoying a visually appealing experience.
 
-Features:
+# Features:
 Add New Items: Users can quickly add new inventory items with essential details (name, description, and quantity).
 Update Items: Easily modify existing item information to keep inventory accurate and up-to-date.
 Remove Items: Effortlessly delete items from the inventory list when they are no longer needed.
